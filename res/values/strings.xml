@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Counter 5</string>
+    <string name="action_settings">Settings</string>
+    <string name="count_button_text">Zähle</string>
+    <string name="confirm_button_test">Übernehmen</string>
+    <string name="edit_button_text">Editiere Zählerwert</string>
+    <string name="textview_initial_text">0</string>
+    <string name="togglebutton_on_text">Inkrementiere</string>
+    <string name="togglebutton_off_text">Dekrementiere</string>    
+    <string name="editTextfield_hint_text">Zählerwert</string>    
+    <string name="error_wrong_number_format">Die Eingabe ist keine zulässige Zahl</string>    
+</resources>

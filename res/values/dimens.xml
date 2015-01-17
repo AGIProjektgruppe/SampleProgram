@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding">16dp</dimen>
+    <dimen name="padding_text">16dp</dimen>
+    <dimen name="text_size">24sp</dimen>
+    <dimen name="margin">12dp</dimen>
+    <dimen name="textview_padding">16dp</dimen>
+    
+</resources>

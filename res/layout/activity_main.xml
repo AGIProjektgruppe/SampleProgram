@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/padding_text"
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding"
+    android:paddingTop="@dimen/padding_text"
+    tools:context=".ActivityMain" >
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gold"
+        android:gravity="end"
+        android:padding="@dimen/textview_padding"
+        android:text="@string/textview_initial_text"
+        android:textSize="@dimen/text_size" />
+    
+    <ToggleButton
+        android:id="@+id/togglebutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/textview1"
+        android:layout_alignStart="@id/textview1"
+        android:layout_below="@id/textview1"
+        android:layout_marginTop="32dp"
+        android:text="@string/count_button_text" />
+    
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/textview1"
+        android:layout_alignRight="@id/textview1"
+        android:layout_below="@id/textview1"
+        android:layout_marginTop="32dp"
+        android:text="@string/count_button_text" />
+
+    <Button
+        android:id="@+id/buttonedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button_count"
+        android:layout_alignEnd="@+id/button_count"
+        android:layout_marginBottom="0dp"
+        android:text="@string/edit_button_text" />
+
+</RelativeLayout>
